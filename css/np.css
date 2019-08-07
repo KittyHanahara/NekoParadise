@@ -33,6 +33,12 @@
 
 .minecraftimage {
   width: 40rem;
+  margin-left: 10px;
+}
+
+.terrariaimage {
+  width: 40rem;
+  margin-right: 10px;
 }
 
 body {
