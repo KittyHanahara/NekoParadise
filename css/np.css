@@ -1,5 +1,5 @@
-.navbar {
-
+.bg-dark {
+  background-color: #160553 !important;
 }
 
 .logo {
@@ -23,26 +23,22 @@
 }
 
 .dlogo {
-  width: 2rem;
+  width: 1.5rem;
+  margin-right: .5rem;
 }
 
 .slogo {
-  width: 2rem;
+  width: 1.5rem;
   margin-left: .5rem;
-}
-
-.minecraftimage {
-  width: 40rem;
-  margin-left: 10px;
-}
-
-.terrariaimage {
-  width: 40rem;
-  margin-right: 10px;
 }
 
 body {
   font-family: Ubuntu, sans-serif;
-  background-color: black;
-  color: white;
+  background-color: #020011;
+  color: #c8c8c8;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
 }

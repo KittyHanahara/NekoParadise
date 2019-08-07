@@ -33,21 +33,25 @@
 
   <header>
     <nav class="navbar fixed-top shadow bg-dark navbar-expand-lg navbar-dark">
-     <div class="container">
-       <img src="image/logom.svg" alt="Neko Paradise" class="logom">
-       <a class="navbar-brand" href="/">Neko Paradise</a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <div class="container">
+      <img src="image/logom.svg" alt="Neko Paradise" class="logom">
+      <a class="navbar-brand" href="/">Neko Paradise</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-nav"></div>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <a class="nav-item nav-link" href="#">Minecraft</a>
-          <a class="nav-item nav-link" href="#">Terraria</a>
-        </div>
-        <a class="dlogo" href="https://discord.gg/r9nSqmr"><img src="image/dlogo.svg"></a>
-        <a class="slogo" href="https://steamcommunity.com/groups/KittysNekoParadise"><img src="image/slogo.svg"></a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Minecraft</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Terraria</a>
+          </li>
+        </ul>
+        <a href="https://discord.gg/r9nSqmr"><img class="dlogo" src="image/dlogo.svg"></a>
+        <a href="https://steamcommunity.com/groups/KittysNekoParadise"><img class="slogo" src="image/slogo.svg"></a>
       </div>
-     </div>
+      </div>
     </nav>
     <div class="header-image">
     </div>
@@ -57,75 +61,61 @@
   <!-- Page Content -->
   <div class="container-fluid">
     <div class="row my-5">
-      <div class="col-3-md">
-        <img src="image/minecraft.png" class="minecraftimage">
+      <div class="col-xl-4 col-md-6">
+        <img src="image/minecraft.png" class="minecraftimage img-fluid">
       </div>
       <div class="col-md">
-        <p>Minecraft
-        <br>
-        <br>Currently Running:
-        <br>Minecraft 1.14.2 Spigot
-        <br>
-        <br>Description:
-        <br>Just a vanilla survival server with benifits,
+        <h1>Minecraft</h1>
+        <h5>Currently Running:</h5>
+        <ul>
+          <li>Minecraft 1.14.2 Spigot</li>
+        </ul>
+        <h5>Description:</h5>
+        <p>
+        Just a vanilla survival server with benifits,
         <br>currently undergoing construction.
-        <br>
-        <br>IP: play.nekoparadise.online</p>
+        </p>
+        <br>IP: <a title="Click to Copy" href="#" data-clipboard-text="play.nekoparadise.online"
+        onmouseout="$(this).text('play.nekoparadise.online');" id="playip">play.nekoparadise.online</a></p>
       </div>
     </div>
     <div class="row my-5">
       <div class="col-md text-right">
-        <p>Terraria
-        <br>
-        <br>Currently Running:
-        <br>Tshock
-        <br>Vanilla Terraria
-        <br>
-        <br>Description:
-        <br>World Name: Neko Paradise
-        <br>World Size: Large
-        <br>World Evil: Crimson
-        <br>World Diff: Expert Mode
-        <br>
-        <br>Currently in Hardmode.
-        <br>
-        <br>IP: 23.238.34.21
-        <br>Port: 7777</p>
+        <h1>Terraria</h1>
+        <h5>Currently Running:</h5>
+        <ul>
+          <li>Tshock</li>
+          <li>Vanilla Terraria</li>
+        </ul>
+        <h5>Description:</h5>
+        <ul>
+          <li>World Name: Neko Paradise</li>
+          <li>World Size: Large</li>
+          <li>World Evil: Crimson</li>
+          <li>World Diff: Expert Mode</li>
+        </ul>
+        <h6>Currently in Hardmode.</h6>
+        <ul>
+          <li>IP: 23.238.34.21</li>
+          <li>Port: 7777</li>
+        </ul>
       </div>
-      <div class="col-3-md">
-        <img src="image/terraria.png" class="terrariaimage">
-      </div>
-    </div>
-    <div class="row my-5">
-      <div class="col-3-md">
-        <img src="">
-      </div>
-      <div class="col-md">
-        <p></p>
-      </div>
-    </div>
-    <div class="row my-5">
-      <div class="col-md text-right">
-        <p></p>
-      </div>
-      <div class="col-3-md">
-        <img src="">
+      <div class="col-xl-4 col-md-6">
+        <img src="image/terraria.png" class="terrariaimage img-fluid">
       </div>
     </div>
   </div>
-
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-3 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; 2019 Kitty Hanahara</p>
     </div>
     <!-- /.container -->
   </footer>
-
   <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+  <script src="js/np.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 </body>
-
 </html>
