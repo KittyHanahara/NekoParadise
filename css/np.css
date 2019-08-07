@@ -22,6 +22,15 @@
   margin-right: .5rem;
 }
 
+.dlogo {
+  width: 2rem;
+}
+
+.slogo {
+  width: 2rem;
+  margin-left: .5rem;
+}
+
 body {
   font-family: Ubuntu, sans-serif;
   background-color: black;
