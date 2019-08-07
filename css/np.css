@@ -31,6 +31,10 @@
   margin-left: .5rem;
 }
 
+.minecraftimage {
+  width: 40rem;
+}
+
 body {
   font-family: Ubuntu, sans-serif;
   background-color: black;
