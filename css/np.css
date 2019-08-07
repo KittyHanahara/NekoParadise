@@ -1,0 +1,29 @@
+.navbar {
+
+}
+
+.logo {
+  width: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter:drop-shadow(3px 3px 2px black);
+}
+
+.header-image {
+  height: 100vh;
+  background-image: url(../image/background.jpg);
+  background-size:cover;
+}
+
+.logom {
+  width: 2rem;
+  margin-right: .5rem;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  background-color: black;
+  color: white;
+}
