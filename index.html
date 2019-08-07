@@ -21,7 +21,7 @@
   <title>Neko Paradise</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <!-- Custom styles for this template -->
   <link href="css/np.css" rel="stylesheet">
@@ -29,9 +29,11 @@
 </head>
 
 <body>
-
-
   <header>
+    <div class="cover" id="cover1"></div>
+    <div class="cover" id="cover2"></div>
+    <div class="cover" id="cover3"></div>
+    <div class="cover" id="cover4"></div>
     <nav class="navbar fixed-top shadow bg-dark navbar-expand-lg navbar-dark">
       <div class="container">
       <img src="image/logom.svg" alt="Neko Paradise" class="logom">
@@ -75,7 +77,8 @@
         Just a vanilla survival server with benifits,
         <br>currently undergoing construction.
         </p>
-        <br>IP: <a title="Click to Copy" href="#" data-clipboard-text="play.nekoparadise.online" class="copyjs">play.nekoparadise.online</a>
+        <br>IP: <a title="Click to Copy" href="#" data-clipboard-text="play.nekoparadise.online"
+        onmouseout="$(this).text('play.nekoparadise.online');" class="copyjs">play.nekoparadise.online</a>
       </div>
     </div>
     <div class="row my-5">
@@ -95,7 +98,7 @@
         </ul>
         <h6>Currently in Hardmode.</h6>
         <ul>
-          <li>IP: <a title="Click to Copy" href="#" data-clipboard-text="23.238.34.21" class="copyjs">23.238.34.21</a></li>
+          <li>IP: 23.238.34.21</li>
           <li>Port: 7777</li>
         </ul>
       </div>
@@ -109,12 +112,17 @@
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; 2019 Kitty Hanahara</p>
     </div>
-    <!-- /.container -->
   </footer>
   <!-- Bootstrap core JavaScript -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default%2CIntersectionObserver" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@2.1.2/src/minified/TweenLite.min.js" integrity="sha256-VfpswwlYKouVmlpnJW0MszMzLm9lH2yfB6ty3d1WsB4=" crossorigin="anonymous" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@2.1.2/src/minified/plugins/CSSPlugin.min.js" integrity="sha256-UJt5JHwfrhok9SvTqbi6rRw2ajY0ugeYsIT2pioVDJY=" crossorigin="anonymous" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@2.1.2/src/minified/TimelineLite.min.js" integrity="sha256-5HW1hilN77unDg9wwY2mmXL1G8/hBMrYOgiB+BqsxNg=" crossorigin="anonymous" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@2.1.2/src/minified/easing/EasePack.min.js" integrity="sha256-Kmyt+nZHXBP0Dc93zU2XMTyo9Bb94gIYk/2H7knbl6U=" crossorigin="anonymous" type="module"></script>
   <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
   <script src="js/np.js"></script>
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

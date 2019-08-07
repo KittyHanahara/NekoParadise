@@ -8,7 +8,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  filter:drop-shadow(3px 3px 2px black);
+  filter: drop-shadow(3px 3px 2px black);
 }
 
 .header-image {
@@ -36,9 +36,50 @@ body {
   font-family: Ubuntu, sans-serif;
   background-color: #020011;
   color: #c8c8c8;
+  overflow-x: hidden;
+}
+
+header {
+  overflow: hidden;
+  position: relative;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+.cover {
+  height: 100vh;
+  width: 200vw;
+  position: absolute;
+  opacity: 1;
+}
+
+#cover1 {
+  background-color: #09002A;
+  z-index: 9999;
+  transform: skewX(10deg);
+  left: -80%;
+}
+
+#cover2 {
+  background-color: #FE6289;
+  z-index: 9998;
+  right: -80%;
+  transform: skewX(-10deg);
+}
+
+#cover3 {
+  background-color: #33113A;
+  z-index: 9997;
+  left: -80%;
+  transform: skewX(10deg);
+}
+
+#cover4 {
+  background-color: black;
+  z-index: 9996;
+  right: -80%;
+  transform: skewX(-10deg);
 }
